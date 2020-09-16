@@ -1,11 +1,11 @@
 /**
  * TODO FOR HOMEWORK - Calculator.java
  *      [X] Pull down Homework 1's starting branch
- *      [ ] Finish the subtract method
- *      [ ] Fix the bug in the multiply method
- *      [ ] Run the main method to see what happens
- *      [ ] Run the TestNG tests and make sure they all pass
- *      [ ] Answer the Short Answer question in the HomeworkChecklist.txt
+ *      [x] Finish the subtract method
+ *      [x] Fix the bug in the multiply method
+ *      [x] Run the main method to see what happens
+ *      [x] Run the TestNG tests and make sure they all pass
+ *      [x] Answer the Short Answer question in the HomeworkChecklist.txt
  */
 public class Calculator {
 
@@ -29,7 +29,7 @@ public class Calculator {
      */
     public static double subtract(double numOne, double numTwo) {
         // Write the correct method here
-        return 0; // Delete this line when done with all of the above
+        return numOne - numTwo; // Delete this line when done with all of the above
     }
 
     /**
@@ -40,7 +40,7 @@ public class Calculator {
      * @param numTwo The second number being multiplied
      * @return The product of two numbers
      */
-    public static int multiply(int numOne, int numTwo) {
+    public static double multiply(double numOne, double numTwo) {
         return numOne * numTwo;
     }
 
